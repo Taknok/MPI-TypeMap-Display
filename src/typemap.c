@@ -53,7 +53,7 @@ MPI_Aint printdatatype( MPI_Datatype datatype, MPI_Aint prevExtentTot ) {
 		
 		printdatatype( array_of_dtypes[0], prevExtentTot);
 
-		printf(", \n");
+		printf(", ");
 
 		break;
 	case MPI_COMBINER_CONTIGUOUS:
@@ -220,7 +220,7 @@ MPI_Aint printdatatype( MPI_Datatype datatype, MPI_Aint prevExtentTot ) {
 
 		prevExtentTot = printdatatype( array_of_dtypes[0], prevExtentTot);
 
-		printf(", \n");
+		printf(", ");
 
 		break;
 	default: 
