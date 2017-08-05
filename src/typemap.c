@@ -182,7 +182,7 @@ MPI_Aint printdatatype( MPI_Datatype datatype, MPI_Aint prevExtentTot ) {
 				tmpPrevExtent += subExtent;
 			}
 		}
-		printf(", ");
+		printf(">, ");
 
 		prevExtentTot = tmpPrevExtent;
 
