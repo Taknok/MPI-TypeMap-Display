@@ -7,6 +7,10 @@ Use `#include <typemap.h>` to access the function `void printMapDatatype(MPI_Dat
  - `<` and `>` are for an indexed.
  - `{` and `}` are for a structure.
  
+ Output example :
+ ```
+"(LB, -3), (MPI_INT, 0), (MPI_INT, 9), (UB, 15)"
+ ```
  ## Contribution
  If you avec an issue you can report it [here](https://github.com/Taknok/MPI-TypeMap-Display/issues/new).<br>
  [Pull request](https://github.com/Taknok/MPI-TypeMap-Display/pulls) are welcomed.<br>
