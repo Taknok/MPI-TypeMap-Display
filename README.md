@@ -24,3 +24,14 @@ Use `#include <typemap.h>` to access the function `void printMapDatatype(MPI_Dat
  - Implement `MPI_COMBINER_SUBARRAY` & `MPI_COMBINER_DARRAY`
  - Probably a lot more ...
  
+
+### Sources
+> [http://www.cs.kent.edu/~farrell/cc08/lectures/mpi_datatypes.pdf][1]<br>
+> [http://www.mcs.anl.gov/research/projects/mpi/mpi-standard/mpi-report-2.0/node161.htm][2]<br>
+> [http://www.mcs.anl.gov/research/projects/mpi/mpi-standard/mpi-report-1.1/node55.htm][3]<br>
+> [http://pages.tacc.utexas.edu/~eijkhout/pcse/html/mpi-data.html][4]<br>
+
+[1]:http://www.cs.kent.edu/~farrell/cc08/lectures/mpi_datatypes.pdf]
+[2]:http://www.mcs.anl.gov/research/projects/mpi/mpi-standard/mpi-report-2.0/node161.htm
+[3]:http://www.mcs.anl.gov/research/projects/mpi/mpi-standard/mpi-report-1.1/node55.htm
+[4]:http://pages.tacc.utexas.edu/~eijkhout/pcse/html/mpi-data.html
